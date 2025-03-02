@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    font-family: Assistant,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d5d1d1;
+
+}
+.myntra_logo{
+    height: 36px;
+    width: 55px;
+}
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-around;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: rgb(38, 36, 36);
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 5px solid white;
+}
+.nav_bar a:hover{
+   border-bottom: 4px solid rgb(227, 65, 65);
+}
+.nav_bar a sup{
+    color: red;
+    font-size: 10px;
+
+}
+.search_bar{
+ height: 40px;
+ min-width: 200px;
+ width: 30%;
+ display: flex;
+ align-items: center;
+}
+.icon{
+height: 20px;
+padding: 10px;
+box-sizing: content-box;
+background-color: #f5f5f6;
+color: #282c3f;
+font-weight: 300;
+border-radius: 4px 0 0 4px ;
+}
+.search_input{
+    height: 40px;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    background-color: #f5f5f6;
+    color: #696e79;
+
+    flex-grow: 1;
+
+}
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_bar a{
+    text-decoration: none;
+    color: rgb(38, 36, 36);
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header */
+/* main */
+.banner_container{
+    margin: 20px 0;
+}
+.banner1{
+    width: 100%;
+
+}
+.diwali_offer{
+    width: 100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.main{
+    width: 300px;
+}
+.special_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item{
+    width: 220px;
+}
+.footer_img{
+    width: 100%;
+    height: 270px;
+    padding: 20px;
+    margin: auto;
+}
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+}
+.footer_column a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.footer_para{
+   display: flex;
+   flex-direction: column;
+}
+.footer_para h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+.contact_num{
+   display: flex;
+   flex-direction: column;
+    text-align: right;
+    margin-bottom: 50px;
+}
+.copyright{
+    color: #94969f;
+    text-align:center;
+    font-size: 20px;
+}
